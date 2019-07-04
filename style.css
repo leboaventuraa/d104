@@ -1,0 +1,35 @@
+body {
+    background-color: blueviolet;
+    margin:0;
+}
+
+img {
+    width: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+nav{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    padding: 0 5px;
+}
+
+@media(max-width: 700px)
+{
+    nav {
+        display: none;
+
+    }
+
+
+.menu-hamburguer {
+    display: block;
+}
+}
